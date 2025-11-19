@@ -4,14 +4,7 @@ A modern, production-ready MERN stack application with robust **CI/CD**, **Docke
 
 > 🚀 Designed for speed, reliability, and visibility using best DevOps practices.
 
----
-
-## Loom video explaining the DevOps Integration
-   ![image](https://static.vecteezy.com/system/resources/thumbnails/054/991/406/small_2x/link-below-and-arrows-perfect-for-directing-viewers-to-websites-blogs-or-online-content-useful-for-digital-marketing-free-video.jpg)
-   
- # [![Watch the Loom Video](https://www.loom.com/share/bd27471440d54b24a908b653e8377fcd?sid=61cea8ee-a5c5-44f1-a3a3-b38a25904239)](https://www.loom.com/share/bd27471440d54b24a908b653e8377fcd?sid=61cea8ee-a5c5-44f1-a3a3-b38a25904239)
-
---- 
+ 
 
 ## 📌 Features
 
