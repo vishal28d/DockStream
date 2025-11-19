@@ -97,9 +97,8 @@ Monitoring: Prometheus + Grafana
 
 👨‍💻 Author
 ```
-Aman Agrawal
+Vishal Maurya
 📍 Final Year | IIIT Bhopal
-💻 Full Stack Developer & DevOps Enthusiast
 ```
 
 Star 🌟 this repository if you find it useful!
