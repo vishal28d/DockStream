@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./back-end
+    ports:
+      - "4000:4000"
+    networks:
+      - mern_network
+
+  frontend:
+    build: ./front-end
+    ports:
+      - "80:80"
+    networks:
+    
+      - mern_network
+    environment:
+      REACT_APP_API_URL: http://backend:4000
+
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    networks:
+      - mern_network
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - mern_network
+
+networks:
+  mern_network:
+    driver: bridge
